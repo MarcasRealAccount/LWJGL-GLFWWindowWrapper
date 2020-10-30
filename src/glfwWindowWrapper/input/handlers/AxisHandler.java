@@ -17,8 +17,6 @@ public class AxisHandler {
 		this.pValues = new double[numAxises];
 		this.resetTypes = new EAxisResetType[numAxises];
 		for (int i = 0; i < this.values.length; i++) {
-			this.values[i] = 0.0D;
-			this.pValues[i] = 0.0D;
 			this.resetTypes[i] = EAxisResetType.DEFAULT;
 		}
 		this.inputDevice = inputDevice;
